@@ -1,0 +1,124 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  background-color: bisque;
+}
+
+.container{
+  padding:10px;
+  max-width: fit-content;
+  
+  margin:50px auto
+  
+}
+
+.btn{
+  border:none;
+  padding:7px 15px;
+  font-size: 18px;
+  border-radius: 5px;
+  background-color: darkgrey;
+  cursor: pointer;
+
+}
+
+.addcontainer form{
+  width:400px;
+  background-color: rgb(88, 139, 139);
+  display:flex;
+  flex-direction: column;
+  padding: 50px 40px;
+box-shadow: 5px 5px 10px ;
+}
+
+.addcontainer{
+  position:absolute;
+  left:0;
+  right:0;
+  bottom:0;
+  top:0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.addcontainer form input
+{
+  
+  font-size: 18px;
+  padding: 2px;
+}
+.addcontainer form label{
+  font-size: 18px;
+  margin: 2px;
+  
+}
+
+
+.submitbtn{
+  margin-top:5px;
+  padding: 5px;
+  border-radius: 5px;
+  font-size: medium;
+  cursor: pointer;
+}
+
+
+.addcontainer form .closebtn{
+margin-left: auto;
+font-size: 23px;
+cursor: pointer;
+}
+
+
+.tablecontainer{
+  margin-top: 50px;
+  box-shadow: 5px 5px 10px;
+  border-radius: 5px;
+  
+}
+
+.tablecontainer table thead{
+  background-color:burlywood ;
+}
+.tablecontainer table thead tr th,
+.tablecontainer table tbody tr td{
+  min-width: 200px;
+  padding:7px;
+  text-align: center;
+ 
+}
+.addcontainer tbody tr{
+border-bottom:1px solid  black;
+}
+
+.btn-edit,
+.btn-delete{
+  font-size: 16px;
+  padding:5px 10px;
+  margin: 0px 10px;
+}
+.btn-edit {
+  background-color: #ffc107;
+}
+
+.btn-edit:hover {
+  background-color: #e0a800;
+}
+
+.btn-delete {
+  background-color: #dc3545;
+}
+
+.btn-delete:hover {
+  background-color: #c82333;
+}
+
+.no-data {
+  text-align: center;
+  color: #020202;
+  font-size: 1.2em;
+  
+}
